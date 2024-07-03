@@ -61,9 +61,10 @@ body {
 
 .task-3-1.container {
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(12, 1fr);
-    grid-gap: 10px;
+    height: 100vh;
+
+    grid-template-rows: auto auto 1fr auto auto auto;
+    gap: 24px;
 }
 
 @media (min-width: 720px) {
