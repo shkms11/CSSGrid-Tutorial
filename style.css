@@ -42,10 +42,9 @@ body {
 
 .task-2.container {
     display: grid;
+    height: 100vh;
 
-    grid-template-columns: 1fr 2fr;
-
-    grid-gap: 1rem;
+    grid-template-columns: repeat(12, 1fr);
 }
 
 .task-2 .item-1 {
