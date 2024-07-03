@@ -41,6 +41,11 @@ body {
 /* Task 2 */
 
 .task-2.container {
+    display: grid;
+
+    grid-template-columns: 1fr 2fr;
+
+    grid-gap: 1rem;
 }
 
 .task-2 .item-1 {
